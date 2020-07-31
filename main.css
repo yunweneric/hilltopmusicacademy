@@ -11,7 +11,7 @@
 .carousel img{
     width: 100%;
     height: 88vh;
-    /* filter:brightness(80%) */
+    filter:brightness(40%)
 }
 
 .carousel-inner{
@@ -421,6 +421,12 @@ fieldset p{
     Logo image
     ==================================
     */
+    .carousel img{
+        width: 100%;
+        height: 88vh;
+        filter:brightness(80%)
+    }
+
     .logo{
         width: 10vh;
         margin:0 100px;
@@ -429,7 +435,6 @@ fieldset p{
         width: 100%;
         height: 100%;
         border-radius: 50%;
-        filter: brightness(100%);
     }
         
     .carousel-caption{
@@ -489,6 +494,11 @@ fieldset p{
     Logo image
     ==================================
     */
+    .carousel img{
+        width: 100%;
+        height: 88vh;
+        filter:brightness(150%)
+    }
     .logo{
         width: 10vh;
         margin:0 30px;
