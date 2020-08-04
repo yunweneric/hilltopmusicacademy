@@ -10,11 +10,11 @@
     width: 100%;
     z-index: 99;
     height: 100%;
-    background-color: #000;
+    background-color: #fff;
   
   
   }
-  .maincontent{
+  #maincontent{
       display: none;
   }
   .lds-roller {
@@ -40,7 +40,7 @@
     width: 7px;
     height: 7px;
     border-radius: 50%;
-    background: #fff;
+    background: #C4632F;
     margin: -4px 0 0 -4px;
   }
   
