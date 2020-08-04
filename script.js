@@ -10,9 +10,12 @@
 // );
 $(document).ready(function () {
     window.onload = function () {
-        $('.preload').fadeOut(500, function () { $('.preload').hide(); });
-        $('#maincontent').fadeIn(500, function () { $('#maincontent').show(); });
-            // $('#maincontent').show();
+        $('.preload').fadeOut(3000, function () { $('.preload').hide(); });
+        $('#maincontent').show();
+        $('#maincontent').fadeIn(3000);
+        // $('#maincontent').show();
 
     }
 });
+
+$(selector).fadeIn();
